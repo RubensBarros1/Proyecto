@@ -1,0 +1,79 @@
+body{
+background-image: url('playa.jpeg');
+}
+#encabezado{
+width: 100%;
+height: 50px;
+background-color: #2563DF;
+color: white;
+font-size: 30px;
+text-align: center;
+}
+#menu{
+width: 100%;
+height: 30px;
+background-color: #C0C1C2;
+color:white;
+font-family: Arial;
+font-size: 20px;
+}
+.superior{
+width: 50%;
+height: 400px;
+background-color: #ffffff;
+color:000000;
+float: left;
+}
+#pie{
+width: 100%;
+height: 30px;
+background-color: #C0C1C2;
+color:Black;
+font-family: Arial;
+font-size: 15px;
+clear:both;
+}
+.img{
+width: 99%;
+height: 350px;
+}
+.sup{
+width: 33.33333333333%;
+height: 400px;
+background-color: #ffffff;
+color:000000;
+float: left;
+}
+.inf{
+width: 33.33333333%;
+height: 30px;
+background-color: #000000;
+color:white;
+font-size: 15px;
+float: left;
+}
+.cuestionario{
+width: 50%;
+height: 410px;
+background-color: #ffffff;
+color:000000;
+float: left;
+}
+.paquetes{
+width: 50%;
+height: 400px;
+background-color: #ffffff;
+float: left;
+font-family:"courier"; 
+font-family: 20; 
+color:#2E4A6E;
+}
+.res{
+width: 100%;
+height: 40px;
+background-color: #ECEBB1;
+color:000000;
+clear:both;
+}
+
+

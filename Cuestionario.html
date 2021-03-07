@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cuestionario</title>
+<link rel="stylesheet" type="text/css" href="estilos.css">
+<head>
+<body>
+<div id="encabezado"><H2>Cuestionario</H2></div>
+<div id="menu"><a href="Destinos.html">Destinos</a>|
+<a href="Index.html">Pagina de inicio</a>|
+<a href="Paquetes y reservaciones.html">Paquetes y reservaciones</a></div>
+<div class="cuestionario"><form>
+  <label for="fname">Nombre:</label><br>
+  <input type="text" id="fname" name="fname" placeholder="Nombre" required><br>
+  <label for="lname">Apellido:</label><br>
+  <input type="text" id="lname" name="lname" placeholder="Apellido" required>
+</form><br>
+<form>
+  <label for="email">Email</label>
+  <input type="email" id="email" name="email" requied>
+</form>
+<hr>
+<label for="quantity">Adultos:</label>
+  <input type="number" id="quantity" name="quantity" min="1" max="10" required>
+</form><br>
+<label for="quantity">Niños:</label>
+  <input type="number" id="quantity" name="quantity" min="1" max="10" required>
+</form><br><br>
+<hr>
+ <label for="datemin">Fecha de llegada:</label>
+  <input type="date" id="datemin" name="datemin" min="2021-03-01" required><br><br>
+
+  <label for="datemax">Fecha de salida:</label>
+  <input type="date" id="datemax" name="datemax" max="3000-03-01" required><br><br>
+<textarea name="message" rows="5" cols="30">
+Deja aqui tus quejas
+</textarea><br>
+<input type="Submit" value="Enviar">
+</form>
+<p></p></div>
+<div class="cuestionario"><p><img src="cuestionario.gif" class="img"></p></div><br>
+
+
+<div id="pie"> Viajes Bibble 2021 &copy;| informacion del sitio| cookies| Esta pagina es un proyecto no es real</div>
+<body>
+<html>
